@@ -1,6 +1,6 @@
 {
 	"name": "@sparkwave/bee",
-	"version": "0.0.23",
+	"version": "0.0.24",
 	"description": "makes web workers easier to use",
 	"main": "dist/bee.js",
 	"keywords": [
