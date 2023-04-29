@@ -2,7 +2,7 @@
 	"name": "@sparkwave/bee",
 	"version": "0.0.23",
 	"description": "makes web workers easier to use",
-	"main": "dist/bee.min.js",
+	"main": "dist/bee.js",
 	"keywords": [
 		"web-worker"
 	],
@@ -20,6 +20,6 @@
 	"dependencies": {
 		"@jrc03c/js-text-tools": "^0.0.7",
 		"@jrc03c/make-key": "^0.0.9",
-		"@sparkwave/js-math-tools": "^0.0.41"
+		"@sparkwave/js-math-tools": "0.0.42"
 	}
 }
