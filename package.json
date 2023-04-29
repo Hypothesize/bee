@@ -9,17 +9,13 @@
 	"license": "ISC",
 	"scripts": {
 		"build": "node build.js",
-		"watch": "node build.js --watch",
 		"pub": "npm version patch --force && npm publish --access=public"
 	},
 	"devDependencies": {
-		"@jrc03c/watch": "github:jrc03c/watch",
 		"esbuild": "^0.14.51",
 		"eslint": "^8.21.0"
 	},
 	"dependencies": {
-		"@jrc03c/js-text-tools": "^0.0.7",
-		"@jrc03c/make-key": "^0.0.9",
-		"@sparkwave/js-math-tools": "0.0.42"
+		"@sparkwave/js-math-tools": "0.0.43"
 	}
 }
