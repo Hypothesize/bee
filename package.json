@@ -1,26 +1,25 @@
 {
-  "name": "@jrc03c/bee",
-  "version": "0.0.22",
-  "description": "makes web workers easier to use",
-  "main": "src/index.js",
-  "keywords": [
-    "web-worker"
-  ],
-  "author": "jrc03c",
-  "license": "ISC",
-  "scripts": {
-    "build": "node build.js",
-    "watch": "node build.js --watch",
-    "pub": "npm version patch --force && npm publish --access=public"
-  },
-  "dependencies": {
-    "@jrc03c/js-math-tools": "github:jrc03c/js-math-tools",
-    "@jrc03c/js-text-tools": "github:jrc03c/js-text-tools",
-    "@jrc03c/make-key": "github:jrc03c/make-key"
-  },
-  "devDependencies": {
-    "@jrc03c/watch": "github:jrc03c/watch",
-    "esbuild": "^0.14.51",
-    "eslint": "^8.21.0"
-  }
+	"name": "@sparkwave/bee",
+	"version": "0.0.22",
+	"description": "makes web workers easier to use",
+	"main": "dist/bee.min.js",
+	"keywords": [
+		"web-worker"
+	],
+	"license": "ISC",
+	"scripts": {
+		"build": "node build.js",
+		"watch": "node build.js --watch",
+		"pub": "npm version patch --force && npm publish --access=public"
+	},
+	"devDependencies": {
+		"@jrc03c/watch": "github:jrc03c/watch",
+		"esbuild": "^0.14.51",
+		"eslint": "^8.21.0"
+	},
+	"dependencies": {
+		"@jrc03c/js-text-tools": "^0.0.7",
+		"@jrc03c/make-key": "^0.0.9",
+		"@sparkwave/js-math-tools": "^0.0.41"
+	}
 }
